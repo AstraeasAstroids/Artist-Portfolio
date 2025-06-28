@@ -1,296 +1,80 @@
- <import pyttsx3>
- <!-- # Initialize the text-to-speech engine-->
-    <!-- # Import the necessary libraries -->
+<!-- This is a simple HTML file -->
+<!-- that serves as a template for a web page -->
 
-<!-- Test to see if speach works-->
- <speaker pyttsx3.init() # Initialize the text-to-speech engine>
- <speaker.say()'Hello User! Welcome to the Books About the Artist page. 
- This is a collection of books that delve into the life and works of the artist. 
- Explore the curated collection and enjoy your reading!>
-    <!-- # Wait for the speech to finish -->    
- <speaker.runAndWait()>
-
-    <!-- # Set properties before adding anything to speak -->
-   <speaker.setProperty('rate', 150)    # Speed percent (can go over 100)>
-    <speaker.setProperty('volume', 0.9)  # Volume 0-1>
-
-
-    </speaker.setProperty>
-
-</import>
-
-<!-- This is the HTML document for the Books About the Artist page -->
 <!DOCTYPE html>
+<!-- The doctype declaration defines the document type and version of HTML -->
+<!-- The HTML element is the root element of an HTML page -->
+<!-- The lang attribute specifies the language of the document -->
 
-<!--<! Initialize Git LFS in the repository -->
-<git lfs install>
-<!-- This is the command to track all .mp3 files with Git LFS -->
-<git lfs track "*.mp3">
-
-     <!-- This is the .gitattributes file for Git LFS -->
-<git add .gitattributes>
-    <git commit -m "Track MP3 files with Git LFS">          
-<!-- This is the .gitattributes file for Git LFS tracking -->
-<git *.mp3 filter=lfs diff=lfs merge=lfs -text>
-<!-- This is the command to add all files to the Git LFS tracking -->
-<git add *.mp3>
-<git add .gitattributes>
-<git commit -m "Add files to Git LFS tracking">
-
-<!-- This is the command to push the changes to the remote repository -->
-<git commit -m "Add .gitattributes for MP3 tracking">
-<git add yourfile.mp3>
-<git commit -m "Add MP3 with Git LFS">
-
-<git push origin main>
-
-<git push origin main>
-
-<echo "build/"  .gitignore>
-<!-- This is the .gitignore file to ignore the build directory -->
-<!-- This is the command to add the .gitignore file to the repository -->
-
-<git add .gitignore>
-
-<git commit -m "Add .gitignore to ignore build directory">
-
-<git commit -m "Ignore build directory"></git>
-
-
-<refspec refs/heads/main:refs/remotes/origin/main>
-<git push origin main>
-
-<refspec refs/heads/main:refs/remotes/origin/main>`
-<git push origin main>
-
- <!--Starting HTML Document-->
- <html lang="en">
+<html lang="en">
+    <!-- The head element contains meta-information about the document -->
+    <!-- The meta HTML tag or element provides metadata about the HTML document -->
+     
     <head>
-         <!-- This is the character set for the page --> 
-        <meta charset="UTF-8">
-        <!-- Make this resoponsive to all devices -->
-         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="A collection of books about the artist.">
-        <meta name="keywords" content="artist, books, collection">
-        <!--This is the title of the page that will show up in the tab-->
+        <!-- The viewport meta HTML tag or element is used to control the width and scaling of the viewport-->
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <!-- The charset meta HTML tag or element specifies the character encoding for the HTML document -->
+        <meta charset="UTF-8">    
+        <!-- The title HTML tag or element defines the title of the document -->
+        <title>The Artists Portfolio</title>
+    </head>
+    <!-- The body element contains the content of the document -->
 
-         <title >  A Book Collection </title>
-
-        <!-- This is the heading that will show up on the page -->
-        <h1 style="text-align:center; color:rgb(46, 38, 97);">
-            The Artist's Book Collection</h1>     
-        <!-- This is the welcome message that will show up on the page -->
-        <h1 style="text-align:center; color:rgb(46, 38, 97);">
-                <p style="text-align:center; color:rgb(46, 38, 97);">
-                    Welcome to eBooks! 
-                </p> 
-            </h1>
-                  
-        <!-- This is the link to the CSS file that will style the page -->  
-            <link rel="stylesheet" href="style.css"> 
-            
-    </head>   
+    <body style="font-family: Helvetica; 
+    background-color: #50b6cf; 
+    color: rgba(3, 26, 4, 0.911); 
+    text-align: center; 
+    padding: 20px;">
         
-     <body style = 
-            "font-family:system-ui, -apple-system, 
-            BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            background-color:lightgray;
-            color:rgb(46, 38, 97);
-            text-align:justify; 
-            padding: 20px;
-            ">
+        <h1>Welcome to the Artists Portfolio</h1>
 
-          <div class="container">
-            <!-- This is the header of the page -->
-            <header style="text-align:center; color:rgb(46, 38, 97);"> 
-                 <h1>eBooks available by the Artist</h1>
-            </header>
+    <!-- The body element contains the content of the document -->
+     <h2><p> The following images are created by Roxanne Elaine Parrish</p></h2>
+    <p><h3> Available for print only</p></h3>
+     
+    <img src= "Radiant Heart.jpg" alt = "Image 1" style="width: 500px; height: 700;"> 
+        <p> "Vibrant Heart - Acrylic on Canvas" </p>
+    
+      <img src="Ballerina.jpg" alt = "Image 2" style="width: 500px; height: 500px;"> 
+      <p> "Ballerina Dreamscape - Acrylic on Canvas" </p>
 
-            <!--This is the Main Content-->
+         <img src = "FillaCup.jpg" alt = "Image 3" style="width:500px; height: 800px;">
+         <p> "How to Fill a Cup - Acrylic on Canvas" </p>
 
-            <main>
-            <section>
-            <!-- This is the main section of the page -->
-            
-            <!-- This is the main content of the page -->
+        <img src="Agony.jpg" alt = "Image 4" style="width: 500px; height: 400px;">   
+        <p> "Agony - Acrylic on Canvas" </p>
+        <img src= "Whales.jpg " alt="Image 5" style="width: 500px; height: 700px;">
+        <p> "Whales - Acrylic on Canvas" </p>
+        <img src ="GreenMan.jpg" alt = "Image 6" style="width: 700px; height: 500px;"> 
+        <p> "GreenMan - Oil on Canvas" </p>
+        <img src = "PrayorChoir.jpg" alt = "Image 7" style="width: 500px; height: 700px;">
+        <p> "Prayor-Choir - Acrylic on Canvas"</p>
+        <img src = "WInged.jpg " alt = "Image 8" style="width: 500px; height: 700px;">
+        <p> "Winged - Acrylic on Canvas" </p>
+        <img src = "Angel Vision.jpg" alt = "Image 9" style="width: 500px; height: 700px;">
+        <p> "Angel Vision - Acrylic on Canvas" </p>
+        <img src = "Hearts of a Feather.jpg"    alt = "Image 10" style="width: 300px; height: 200px;">
+        <p> "Hearts of a Feather - Acrylic on Canvas" </p>
+        <img src = "Protected.jpg " alt = "Image 11" style="width: 500px; height: 700px;">
+        <p> "Protected - Acrylic on Canvas" </p>
+        <img src = "MoonShine.jpg" alt = "Image 12" style="width: 700px; height: 500px;">
+        <p> "MoonShine - Acrylic on Canvas" </p>    
+        <img src = "Ladder CNS.jpg" alt = "Image 13" style="width: 500px; height: 700px;">
+        <p> "Ladder CNS - Acrylic on Canvas" </p>
+        <img src = " Heart feathers.jpg" alt = "Image 14" style="width: 200px; height: 200px;">
+        <p> "Heart Feathers - Acrylic on Canvas" </p>
+        <img src = " Flower Trap.jpg"   alt = "Image 15" style="width: 100px; height: 200px;">
+        <p> "Flower Trap - Acrylic on Canvas" </p>
+        <img src = "Green Big Red HEART and EYES.jpg " alt = "Image 16" style="width: 300px; height: 300px;">
+        <p> "Green Big Red Heart and Eyes " </p>
+        <img src = " Sea Fancy.jpg" alt = "Image 17" style="width: 100px; height: 200px;">
+        <p> "Sea Fancy " </p>
+        <img src = "water_charcoal.jpg "    alt = "Image 18" style="width: 700px; height: 500px;">
+        <p> "Water Charcoal " </p>
+        <img src = "Selfportrait2002.jpg "  alt = "Image 19" style="width: 500px; height: 700px;">
+        <p> "Self Portrait 2002 " </p>
+        <img src = "Selfportrait2003.jpg " alt = "Image 20" style="width: 500px; height: 700px;">
+        <p> "Self Portrait 2003 " </p>
 
-            
-         </head>   
-         <!-- This is the body of the page -->
-     <body style = "font-family:system-ui, -apple-system, 
-        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background-color:lightgray;
-        color:rgb(46, 38, 97);
-        text-align:justify; 
-        padding: 20px;">
-
-        <!-- This is the header of the page -->
-
-        <header style="text-align:center; color:rgb(46, 38, 97);"> 
-
-            <h1>The ARTWORKS link will take to the Author's own Fine Art Portfolio</h1>
-            
-
-        </header>
-        <!-- This is the main content of the page -->
-        <main >
-            <!-- The <nav> element defines a section of navigation links. 
-     The "stick-nav" class can be used to apply CSS that makes this nav bar stick to the top of the viewport. -->
-                 <nav class="stick-nav">    
-                <ul>
-
-                    <li>
-                        <a href="https://astraeasastroids.github.io/Artist-Portfolio/">ARTWORKS</a>
-                        
-                    </li>
-                </ul>
-            </nav>
-<!-- b007741 (Save local changes before rebase) -->
-
-            <h2 style="text-align:center; color:rgb(46, 38, 97);">
-                
-                <p>
-                    This is a collection of books that delve into the life and works of the artist. 
-                    
-                    
-                </p>
-                <p>
-                    Explore the curated collection and enjoy your reading!
-                    
-                </p> 
-                </section>
-
-                <section>
-
-            <h2 style="text-align: center;">Featured Books that you might find interesting:</h2>
-            <p>Click on the book titles to read!</p> 
-                </section>
-             </main>
-            
-             <!-- This is the main content of the page -->         
-            <!-- This is a list of books with links to their respective pages -->    
-         <nav class="center-content">
-                <ul>
-                    <li><a 
-                        href="Shadows in the wake.mp3">
-                    <!-- This is a link to the book "The Scent of Turpentine" -->                                                 
-                        <h3>
-                        Shadows in the Wake
-                        </h3></a>
-                        <img src ="Shadow in the Wake.jpg"alt="Book Cover Image" style="width:200px;height:250px;">
-                    <!-- This is the author of the book -->
-                    <p> Author Roxanne Parrish</p>
-                    <!-- This is a brief description of the book -->
-                        <p>
-                        A short story about the artist.
-                        A day in the old life.
-                        </p>
-                    </li>
-                
-                    <li><a 
-                        href="Daughter.mp3">
-                        <!-- This is a link to the book "Daughter" -->
-                        <h3>
-                            Daughter
-                        </h3></a>
-                        <img src ="Daughter.jpg"alt="Book Cover Image" style="width:200px;height:300px;">
-                        <!-- This is the author of the book -->
-                        <p>From Mark 5:24-34</p>
-                        <!-- This is a brief description of the book -->
-                            <p>
-                            This is the story of the daughter of Miriam and Azriel, sister of Yael, dancer of fig grives and firelight.
-                            Set against the vibrant and tumultuous backdrop of 1st-century Judea, Daughter tells the powerful first-person story of a woman who suffered for twelve long years with a relentless illness.                            
-                            Shunned and isolated, she lived in the shadows—until a single, daring act of faith led her to Jesus, the healer whose touch changed everything.
-                            Through vivid encounters with Jesus, His disciples, and the unfolding events of His ministry, crucifixion, and resurrection, 
-                            this novel explores not only the miracle of physical healing but the profound inner transformation of a woman whose faith defied the impossible.
-                            Blending historical detail with heartfelt spirituality, Daughter is a moving tribute to hope, resilience, and the enduring power of belief. 
-                            </p>
-                    </li>
-                     <!-- This is a link to the Harvest-->   
-                     <li><a href="The Harvest AUDIO.mp3">
-                        <!-- This is a link to the book "The Harvest" -->
-                        <h3>The Harvest</h3></a>
-                        <img src ="Roxanne Parrish's The Harvest.png"alt="Book Cover Image" style="width:200px;height:300px;">
-                        <!-- This is the author of the book -->
-                        <p>Roxanne Parrish</p>
-                        <!-- This is a brief description of the book -->
-                            <p>A glimpse of the apoclypse at armagedeon.</p>
-
-                    </li>
-                     <li><a href = "Love Mom audiobook.mp3">
-                        <!-- This is a link to the book "Love, Mom" -->
-                        <h3>Love, Mom</h3>
-                    </a>
-                        <img src ="Lemon Bar.jpg"alt="Book Cover Image" style="width:200px;height:300px;">
-                        <!-- This is the author of the book -->
-                        <p>Author: Roxanne Parrish</p>
-                        <!-- This is a brief description of the book -->
-                            <p>
-                            Love, Mom is a biography of the artist's mother.
-                            Told in brutal detail and laced with dry humor. 
-                             Love, Mom is a matriarchal horror about generational trauma, truth-telling, and the sacred act of finally saying no.
-                            It’s not about healing. It’s about surviving the inheritance.
-                            </p>
-                    
-                        </li>
-                    <li> <a href = "Chrysalis AUDIO - Copy.mp3"> 
-                        <h3>Chrysalis</h3>
-                         </a>
-                            <img src = "Chrysalis COVER.png" alt="Book Cover Image" style="width:200px;height:300px;">
-
-                        <!-- This is the author of the book -->
-                        <p>Author: Roxanne Parrish</p>
-                        <!-- This is a brief description of the book -->
-                         <p>    
-                            On a terraforming outpost on Europa, a scientist studying microbial life discovers a strange organic pod buried beneath the ice. 
-                            The organism inside appears to be evolving at an accelerated rate, learning from its environment—and from her. 
-                            Crew members begin changing—mentally first, then physically. Paranoia grows as no one knows who’s been infected…
-                            or why they’re evolving.
-                         </p>
-
-                    </li>
-                        
-                    <h1 style="text-align:center; color:rgb(46, 38, 97);">Children's Book Collection</h1>
-                    <p 
-                    style="text-align:center; color:rgb(46, 38, 97);">Explore a curated collection of books that delve into the life and works of the artist's children.
-                    </p>
-                     </li>                   
-                        <!-- This is a link to the book "Time to Shine" -->
-                        <li><a href="Time to Shine AUDIO.mp3" alt="Time to Shine.txt">
-                        <!-- This is the title of the book -->
-                        <h3>
-                            Time to Shine
-                        </h3>                                
-                        
-                       
-                         <img src="Time to Shine Title.png" alt="Book Cover" style="width:200px;height:300px;"> </a> 
-
-                           <h3>
-                            Luma
-                        </h3> 
-                         <!-- This is a link to a picture of Luma-->
-                         <img src="Luma.png" alt="Luma" style="width:200px;height:300px;"> 
-
-                        <!-- This is the author of the book -->
-                        <p>
-                            Author: Gwendolyn Nicholson
-                        </p>
-                        <!-- This is a brief description of the book -->
-                        <p>
-                            Time to Shine is a children's book about overcoming self-doubt and finding the courage to shine.
-                        </p>                    
-                            
-                    </li>
-
-                </ul>
-            </nav>
-           </div>
-        </main>
-
-        <footer>
-            <!-- This is the footer of the page -->
-            <p>&copy; 2023 eBooks About the Artist. All rights reserved.</p>
-            <p><a href="mailto:xannapi@gmail.com">Email Us</a></p>
-
+  
     </body>
-    </html>
