@@ -1,0 +1,142 @@
+/* Base Styling */
+body {
+  background: linear-gradient(to bottom right, #fdf6e3, #e0eafc);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+  max-width: 960px;
+  margin: 50px auto 0;
+  padding: 40px 20px;
+  background-color: #ffffffcc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+/* Centering Content */
+.center-content {
+  display: inline-block; /* Use inline-block to center the content */
+  text-align: center; /* Center the text inside the container */
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* List Styling */
+ul li img{
+  display : inline-block;
+  align-items: center;
+  justify-content: center;
+}
+/* Headings */
+h1 {
+  text-align: center;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none; 
+}
+/* Links Hover Effect */
+a:hover {
+  text-decoration: underline;
+}
+/* Sticky Navigation */
+sticky-nav {
+  text-align: center  ; /* Center the navigation links */
+
+  position: sticky;
+
+  top: 0;
+
+  background-color: #121212e6;
+
+  backdrop-filter: blur(6px);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 0.75rem 1.5rem;
+
+  z-index: 1000;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+}
+ /* Sticky Navigation Links */
+ ul
+ { 
+  list-style: none;
+  
+}
+/* Sticky Navigation List Items */
+sticky-nav ul {
+
+  display: inline-block;   /* Use inline-block to center the list items */
+  text-align: center; /* Center the list items */
+  justify-content: center; /* Center the list items */
+  align-items: center; /* Center the list items vertically */
+
+  gap: 1.5rem;
+
+  margin: 0;
+
+  padding: 0;
+
+
+}
+
+ /* Sticky Navigation Links */
+sticky-nav a {
+  
+  
+
+  color: #f5f5f5;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  transition: color 0.3s ease;
+
+}
+ /* Sticky Navigation Links Hover Effect */
+sticky-nav a:hover {
+
+  color: #ff3c28;
+
+}
+
+/* more specific selector: only target <nav> elements */
+nav.stick-nav {
+  display: grid;              /* make the nav a flex container */
+  place-items: center;   /* center the items horizontally and vertically */
+  
+  height: 60px;            /* set a height for the nav */
+}
+
+ /* reset the UL so it doesn’t have default margins/padding */
+nav.stick-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;              /* lay your <li>s out in a row */
+  gap: 1rem;                 
+}
